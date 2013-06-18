@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print" />
+
+    <title>Michaelroshen.github.com by MichaelRoshen</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Mr.c's Blog</h1>
+        <section id="downloads">
+          <a href="/" class="btn btn-github">Home</a>
+          <a href="/categories" class="btn btn-github">Categories</a>
+          <a href="/tags" class="btn btn-github">Tags</a>
+          <a href="/about" class="btn btn-github">About</a>
+          <a href="https://github.com/MichaelRoshen" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+       <div id="post">
+<h2>步骤</h2>
+
+<ul>
+<li>创建github账号</li>
+<li>创建username.github.com或者username.github.io的Repositroy，名字要和github账号相同</li>
+<li>在Repositroy Setting中可以自动生成站点，而且有默认的模板，可以根据自己的喜好选择
+Automatic Page Genergator,首次生成需要等待10分钟左右，再访问username.github.io才能生效
+也有可能失败，如果时间过长没有生成，可以联系jekyll客服，另外也可以搭建本地的jekyll
+运行环境，进行测试
+
+<ul>
+<li>安装git</li>
+<li>安装jekyll(需要先装Devkit，详见百度)
+$ gem install jekyll
+$ git clong git@github.com:username/username.github.com.git username.github.com
+$ cd username.github.com
+$ jekyll server --watch</li>
+</ul></li>
+<li>页面的布局，可根据自己的需要进行修改
+
+<ul>
+<li>_layouts 模板存放位置</li>
+<li>_posts 博文粗放位置</li>
+<li>_config.yml 配置信息</li>
+<li>_index.html 首页内容</li>
+</ul></li>
+<li>_config.yml配置内容
+
+<ul>
+<li>markdown: redcarpet       markdown解释引擎</li>
+<li>pygments: true               代码高亮</li>
+<li>permalink: /:year/:month/:title   博文访问及存放路径，jekyll会根据设置的模式生成博文存放路径及访问路径</li>
+<li>paginate: 16                   分页 </li>
+</ul></li>
+</ul>
+
+</div>
+
+<div class="related">
+  <h3>Related Posts</h3>
+  <table class="post-list">
+    
+      <tr>
+        <th><a href='/2013/06/migrate-blog'>博客地址迁移</a></th>
+        <td>18 Jun 2013</td>
+        <td><a href='/2013/06/migrate-blog#disqus_thread'>Comments</a></td>
+      </tr>
+    
+  </table>
+</div>
+<!-- JiaThis Button BEGIN -->
+<div id="ckepop">
+<span class="jiathis_txt">分享到：</span>
+<a class="jiathis_button_tsina">新浪微博</a>
+<a class="jiathis_button_t163">网易微博</a>
+<a class="jiathis_button_tqq">腾讯微博</a>
+<a class="jiathis_button_renren">人人网</a>
+<a class="jiathis_button_douban">豆瓣</a>
+
+<a href="http://www.jiathis.com/share?uid=1574434" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank">更多</a>
+<a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" >
+var jiathis_config={
+    data_track_clickback:true,
+    sm:"t163,tsina,tqq,renren,douban",
+    summary:"",
+    hideMore:false
+}
+</script>
+<script type="text/javascript" src="http://v2.jiathis.com/code_mini/jia.js?uid=1574434" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+
+<br />
+
+<!-- UY BEGIN -->
+<div id="uyan_frame"></div>
+<script type="text/javascript" id="UYScript" src="http://v1.uyan.cc/js/iframe.js?UYUserId=1801416" async=""></script>
+<!-- UY END -->
+
+
+
+<!-- 
+
+
+<div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/misterbleigh/embed.js"></script><noscript><a href="http://misterbleigh.disqus.com/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+ <script type="text/javascript" charset="utf-8">
+  var disqus_url = "http://www.mbleigh.com//2013/06/create-github-blog";
+</script>
+-->
+
+
+      </section>
+    </div>
+
+    
+  </body>
+</html>
