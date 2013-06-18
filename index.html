@@ -9,3 +9,37 @@ title: Michael Roshen's Blogs
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
+
+ <div id="post-pagination" class="paginator">
+
+  {% if paginator.previous_page %}
+    {% if paginator.previous_page == 1 %}
+    <a href="/">prev</a>
+    {% else %}
+    <a href="/page{{paginator.previous_page}}">prev</a>
+    {% endif %}
+  {% else %}
+    <span class="previous disabled">prev</span>
+  {% endif %}
+
+      {% if paginator.page == 1 %}
+      <span class="current-page">1</span>
+      {% else %}
+      <a href="/">1</a>
+      {% endif %}
+
+    {% for count in (2..paginator.total_pages) %}
+      {% if count == paginator.page %}
+      <span class="current-page">{{count}}</span>
+      {% else %}
+      <a href="/page{{count}}">{{count}}</a>
+      {% endif %}
+    {% endfor %}
+
+  {% if paginator.next_page %}
+    <a class="next" href="/page{{paginator.next_page}}">next</a>
+  {% else %}
+    <span class="next disabled" >next</span>
+  {% endif %}
+  ({{ paginator.total_posts }}Posts)
+</div>

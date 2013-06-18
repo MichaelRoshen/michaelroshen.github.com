@@ -1,12 +1,6 @@
 ---
 layout: post
-title: Jekyll Github
-categories:
-- Jekyll
-tags:
-- github
-- jekyll
-- blog
+title: Second Post
 ---
 
 Highlighting code snippets

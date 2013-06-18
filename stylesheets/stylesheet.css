@@ -46,7 +46,7 @@ header {
 header h1 {
   font-size: 30px;
   line-height: 1.5;
-  margin: 0 0 0 -40px;
+  margin: 0 0 0 0px;
   font-weight: bold;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   color: #b5e853;
@@ -58,7 +58,6 @@ header h1 {
 }
 
 header h1:before {
-  content: "./ ";
   font-size: 24px;
 }
 
@@ -134,7 +133,6 @@ ul li {
 }
 
 ul li:before {
-  content: ">>";
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   font-size: 13px;
   color: #b5e853;
