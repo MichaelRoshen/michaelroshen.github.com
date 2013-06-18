@@ -1,6 +1,4 @@
-markdown: rdiscount
-permalink: /:year/:month/:title
-url: http://michaelroshen.github.com
-author: MichaelRoshen
+markdown: redcarpet
 pygments: true
-paginate: 1
+permalink: /:year/:month/:title
+paginate: 16
