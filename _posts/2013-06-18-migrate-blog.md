@@ -20,4 +20,4 @@ title: 博客地址迁移
 github被墙了，不得不佩服中国人的创造力啊，不过还是不要在人家的服务器上乱搞
 要是github再被强了，还要浪费大家的$$去翻墙，何必呢
 
-之前的博客不再维护，欢迎来到MichaelRoshen's Github[http://michaelroshen.github.io/]
+之前的博客不再维护，欢迎来到[MichaelRoshen's Github]: http://michaelroshen.github.io/
