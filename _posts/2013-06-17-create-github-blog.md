@@ -20,12 +20,12 @@ tags:
    - 安装git
    - 安装jekyll(需要先装Devkit，详见百度)
 
-
+```ruby
     $ gem install jekyll
     $ git clong git@github.com:username/username.github.com.git username.github.com
     $ cd username.github.com
     $ jekyll server --watch
-
+```
 
 * 页面的布局，可根据自己的需要进行修改
   - _layouts 模板存放位置
