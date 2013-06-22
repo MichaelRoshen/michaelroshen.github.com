@@ -13,8 +13,8 @@ title: 网站流量统计分析
 *获取代码
 
 
-```javascripty
+{% highlight javascritpy %}
   <script src="http://s19.cnzz.com/stat.php?id=5445988&web_id=5445988&show=pic" language="JavaScript"></script>
-```
+{% endhighlight %}
 
 *粘贴到footer中
