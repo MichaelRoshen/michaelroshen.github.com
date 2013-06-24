@@ -67,7 +67,7 @@ tags:
   
   { % endhighlight %}
   
-  4. 读取定时任务：
+4. 读取定时任务：
   
   { % highlight ruby %}
   
