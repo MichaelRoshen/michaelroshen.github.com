@@ -44,7 +44,7 @@ tags:
 
 { % endhighlight %}
 
-3. 删除定时任务：
+3. 删除定时任务:
 
 { % highlight ruby %}
 
@@ -67,7 +67,7 @@ tags:
   
   { % endhighlight %}
   
-4. 读取定时任务：
+4. 读取定时任务:
   
   { % highlight ruby %}
   
@@ -84,4 +84,5 @@ tags:
     { % endhighlight %}
 
 
-5. [更多Schtasks命令](http://technet.microsoft.com/zh-cn/library/cc772785.aspx)
+5. 更多Schtasks命令:
+[地址](http://technet.microsoft.com/zh-cn/library/cc772785.aspx)
