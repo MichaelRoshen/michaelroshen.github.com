@@ -1,3 +1,4 @@
+#encoding: utf-8
 ---
 layout: post
 title: 博客地址迁移
