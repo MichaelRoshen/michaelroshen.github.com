@@ -12,12 +12,12 @@ tags:
 用ruby创建windows定时任务
 =====================
 
-1. windows的定时任务可以在任务计划中进行设置，定时执行批处理文件，可以在批处理文件中
+###windows的定时任务可以在任务计划中进行设置，定时执行批处理文件，可以在批处理文件中
    做一些处理，例如删除过期文件，创建文件夹，调用ruby文件等。
   
-2. 创建定时任务：
+###创建定时任务：
 
-{ % highlight ruby %}
+```ruby
 
  def utf82gbk(s)
   require 'iconv'
@@ -42,11 +42,11 @@ tags:
     end
   end
 
-{ % endhighlight %}
+```
 
-3. 删除定时任务:
+###删除定时任务:
 
-{ % highlight ruby %}
+```ruby
 
  def run_cmd(cmd, retry_times = 0, retry_delay = 2)
     puts cmd
@@ -65,11 +65,11 @@ tags:
   
   run_cmd("schtasks /delete /tn #{task_detail[:task_name]} /f")
   
-  { % endhighlight %}
+```
   
-4. 读取定时任务:
+###读取定时任务:
   
-  { % highlight ruby %}
+```ruby
   
     def read_schtasks
     connent = run_cmd("schtasks /query /fo table /nh")
@@ -81,8 +81,7 @@ tags:
     tasks_name
   end
   
-    { % endhighlight %}
+```
 
 
-5. 更多Schtasks命令:
-[地址](http://technet.microsoft.com/zh-cn/library/cc772785.aspx)
+###[更多Schtasks命令](http://technet.microsoft.com/zh-cn/library/cc772785.aspx)
