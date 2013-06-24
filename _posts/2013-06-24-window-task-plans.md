@@ -1,4 +1,3 @@
-#encoding: utf-8
 ---
 layout: post
 title: 用ruby创建windows定时任务

@@ -1,4 +1,3 @@
-#encoding: utf-8
 ---
 layout: post
 title: 网站流量统计分析

@@ -1,4 +1,3 @@
-#encoding: utf-8
 ---
 layout: post
 title: 创建github博客记录
