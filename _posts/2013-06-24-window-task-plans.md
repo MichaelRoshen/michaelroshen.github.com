@@ -25,7 +25,7 @@ tags:
  end
 
   def create_schtasks_cmd(task_detail)
-    cmd_schtasks = "schtasks /create /ru GRANDSOFT\\gbqat /rp 123abc!@#"
+    cmd_schtasks = "schtasks /create /ru username /rp password"
     cmd_schtasks += " /sc once"
     cmd_schtasks += " /sd #{task_detail[:start_time].strftime("%Y/%m/%d")}"
     cmd_schtasks += " /st #{task_detail[:start_time].strftime("%H:%M:%S")}"
