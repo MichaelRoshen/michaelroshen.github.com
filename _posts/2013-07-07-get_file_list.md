@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 递归获取文件夹下所有文件
+title: get file list
 categories:
 - file
 
