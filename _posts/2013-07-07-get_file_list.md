@@ -2,7 +2,7 @@
 layout: post
 title: 递归获取文件夹下所有文件
 categories:
-- 递归
+- file
 
 递归获取文件夹下所有文件
 =====================
