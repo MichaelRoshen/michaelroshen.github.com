@@ -18,7 +18,7 @@ tags:
 ```
 
 ###给省份的下拉框添加事件，下拉框内容变化时，发送get_city_location的请求，获取该省的所有地区
-然后填充到市区的下拉框中
+###然后填充到市区的下拉框中
 
 ```ruby
 //按地区过滤
@@ -35,8 +35,13 @@ tags:
 ```
 
 ###路由的配置
-注意：发送的请求，get_city_location_index_path
-对应的路由为， get_city_location_index GET    /location/get_city(.:format)    location#get_city
+###注意：发送的请求，get_city_location_index_path
+###对应的路由为
+
+```ruby
+    get_city_location_index GET    /location/get_city(.:format)    location#get_city
+```
+
 ```ruby
   resources :location, :only => ["get_city"] do
     collection do
