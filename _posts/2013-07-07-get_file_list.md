@@ -1,13 +1,16 @@
 ---
 layout: post
-title: get file list
+title: 递归获取文件夹下所有文件
 categories:
+- 文件
+tags:
 - file
+---
 
 递归获取文件夹下所有文件
 =====================
 
-###下面是一个递归获取指定文件夹下所有xlsx文件的例子
+###下面是获取文件夹下所有xlsx文件的函数
 
 ```ruby
 class FilePro 
